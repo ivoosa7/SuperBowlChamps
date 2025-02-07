@@ -1,19 +1,13 @@
 {
-  "posts": [
+  "sbchampions": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "champions": "Green Bay Packers",
+      "score": "35 x 10",
+      "opponent": "Kansas City Chiefs",
+      "mvp": "Bart Starr",
+      "season": 1966,
+      "local": "Los Angeles Memorial Coliseum"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
