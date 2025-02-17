@@ -1,1 +1,26 @@
-<p>sbchampions-list works!</p>
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col">Edição</th>
+            <th scope="col">Campeão</th>
+            <th scope="col">Placar</th>
+            <th scope="col">Adversário</th>
+            <th scope="col">MVP do Superbowl</th>
+            <th scope="col">Temporada</th>
+            <th scope="col">Lugar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let sb of sbchampions">
+            <th scope="row">{{sb.id}}</th>
+            <th scope="row">{{sb.champions}}</th>
+            <th scope="row">{{sb.score}}</th>
+            <th scope="row">{{sb.opponent}}</th>
+            <th scope="row">{{sb.mvp}}</th>
+            <th scope="row">{{sb.season}}</th>
+            <th scope="row">{{sb.local}}</th>
+          </tr>
+        </tbody>
+      </table>
+</div>
