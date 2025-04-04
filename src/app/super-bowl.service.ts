@@ -8,7 +8,7 @@ import { SbChamps } from './SbChamps';
 })
 export class SuperBowlService {
   constructor(private http:HttpClient) { }
-  url = 'http://localhost:3000/sbchampions'
+  url = 'http://localhost:8080/superbowlchampions'
 
   getChamps(): Observable<SbChamps[]>{
     return this.http.get<SbChamps[]>(this.url);

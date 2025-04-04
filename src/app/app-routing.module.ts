@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { SBChampionsListComponent } from './sbchampions-list/sbchampions-list.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/superbowlchampions', pathMatch: 'full'},
   {path: 'Home', component: HomeComponent},
   {path: 'superbowlchampions', component: SBChampionsListComponent}
 ];
