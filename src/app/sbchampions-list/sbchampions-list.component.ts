@@ -20,4 +20,6 @@ export class SBChampionsListComponent implements OnInit{
       next: data => this.sbchampions = data
     })
   };
+
+  
 }
