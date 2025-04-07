@@ -9,6 +9,8 @@
             <th scope="col">MVP do Superbowl</th>
             <th scope="col">Temporada</th>
             <th scope="col">Lugar</th>
+            <th scope="col">Alterar</th>
+            <th scope="col">Deletar</th>
           </tr>
         </thead>
         <tbody>
@@ -20,6 +22,8 @@
             <th scope="row">{{sb.mvp}}</th>
             <th scope="row">{{sb.season}}</th>
             <th scope="row">{{sb.local}}</th>
+            <th scope="row"><button type="button" class="btn btn-info" (click)="alterandosbChamps(sb.id)">Alterar</button></th>
+            <th scope="row"><button type="button" class="btn btn-danger" (click)="deletarSbChamps(sb)">Deletar</button></th>
           </tr>
         </tbody>
       </table>
